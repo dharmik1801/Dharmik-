@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FF5733;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
